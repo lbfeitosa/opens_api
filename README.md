@@ -63,11 +63,29 @@ Finalmente, instale as dependências npm install e execute a aplicação npm run
 }
 ```
 Resgate o token retornado da autenticação e utilize nos endpoints com autenticação Bearer:
-- POST:http://localhost:3000/user  
-- DEL:http://localhost:3000/user/:id
+- POST: http://localhost:3000/user  
+- - BODY:
+```json
+{
+    "login":"teste",
+    "name":"teste",
+    "email":"teste@teste.com",
+    "password":"123456"
+}
+```
+- DEL: http://localhost:3000/user/:id
 
 Para usuário simples, utilizar:
-- PUT:http://localhost:3000/user/:id  
+- PUT: http://localhost:3000/user/:id  
+- - BODY:
+```json
+{
+    "login":"testador",
+    "name":"testador",
+    "email":"teste@teste.com",
+    "password":"123456"
+}
+```
 - GET:http://localhost:3000/user/:id
 
 
