@@ -28,6 +28,7 @@ sudo apt-get install git-core curl build-essential openssl libssl-dev
 sudo npm cache clean -f
 sudo npm install -g n
 sudo n latest
+sudo npm i -g @nestjs/cli
 ```
 ### Instalação Docker
 https://docs.docker.com/install/linux/docker-ce/ubuntu/
