@@ -1,3 +1,17 @@
+# Proposta do Processo Seletivo
+Application Description
+ - This application need to expose an API to authenticate, create, edit and delete users.
+ - It need be write in nodeJs and use a database.
+ - It need accept only authenticated requests and the master token need be the only one that create and delete users.
+ - The user credentials can edit and view your own data.
+
+User Story
+ - The master token create a new user with basic data: login, password, name, email.
+ - The user can edit and view your data through an API request.
+ - The master token will delete the user.
+
+-----------------------------------
+
 # Requisitos de Sistema
 
 - Node
